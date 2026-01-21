@@ -1,0 +1,295 @@
+{
+  "intents": [
+
+    {
+  "tag": "greeting",
+  "patterns": ["hi", "hello", "hey", "good morning", "good evening"],
+  "responses": [
+    "Hello! I can help with general dermatology-related information.",
+    "Hi there! Ask me anything related to skin or hair care.",
+    "Hello! I’m here to answer dermatology-related questions.",
+    "Hey! How can I help you with skin health today?"
+  ]
+}
+,
+
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you", "Exit"],
+      "responses": [
+        "Take care! If symptoms persist, please consult a dermatologist."
+      ]
+    },
+
+
+
+    {
+  "tag": "acne_causes",
+  "patterns": [
+    "what causes acne",
+    "why pimples occur",
+    "acne reasons",
+    "why do i get pimples",
+    "causes of acne"
+  ],
+  "responses": [
+    "Acne occurs due to clogged pores, excess oil production, bacteria, and hormonal changes.",
+    "Hormonal imbalance, oily skin, and blocked pores are common causes of acne.",
+    "Stress, genetics, and lifestyle habits can contribute to acne formation.",
+    "Acne develops when oil and dead skin cells clog hair follicles.",
+    "Poor skincare routines and hormonal fluctuations may worsen acne."
+  ]
+}
+,
+
+    {
+  "tag": "acne_care",
+  "patterns": [
+    "how to take care of acne",
+    "acne skin care tips",
+    "how can i manage pimples",
+    "acne care routine"
+  ],
+  "responses": [
+    "Gentle cleansing and avoiding harsh products help control acne.",
+    "Maintaining a consistent skincare routine can reduce acne breakouts.",
+    "Avoid touching or squeezing pimples to prevent scarring.",
+    "Use non-comedogenic products and keep your skin clean.",
+    "Persistent acne should be evaluated by a dermatologist."
+  ]
+}
+,
+
+    {
+  "tag": "acne_food",
+  "patterns": [
+    "best food for acne",
+    "foods to reduce pimples",
+    "acne control foods",
+    "diet for acne",
+    "what should i eat for acne",
+    "foods to avoid for acne",
+    "does food cause acne"
+  ],
+  "responses": [
+    "A balanced diet with fruits, vegetables, whole grains, and enough water supports healthy skin.",
+    "Eating fresh fruits, leafy vegetables, and avoiding excessive junk food may help manage acne.",
+    "Diet alone cannot cure acne, but healthy eating habits support overall skin health.",
+    "Foods with low sugar and less oil are generally better for acne-prone skin.",
+    "Staying hydrated and maintaining a balanced diet can reduce acne flare-ups."
+  ]
+}
+,
+
+    {
+  "tag": "acne_do_dont",
+  "patterns": [
+    "acne do and dont",
+    "what should i do for acne",
+    "what not to do for pimples"
+  ],
+  "responses": [
+    "Do keep your skin clean; don’t squeeze pimples.",
+    "Avoid overwashing your face as it may irritate skin.",
+    "Use gentle products and avoid harsh scrubs.",
+    "Consult a dermatologist if acne persists.",
+    "Maintain hygiene and avoid touching your face frequently."
+  ]
+}
+,
+
+
+
+    {
+  "tag": "dandruff_causes",
+  "patterns": [
+    "why dandruff happens",
+    "causes of dandruff",
+    "white flakes on scalp"
+  ],
+  "responses": [
+    "Dandruff can be caused by dry scalp or excess oil production.",
+    "Fungal growth on the scalp may lead to dandruff.",
+    "Weather changes and stress can worsen dandruff.",
+    "Using harsh hair products may trigger dandruff.",
+    "Poor scalp hygiene may contribute to dandruff."
+  ]
+}
+,
+
+{
+  "tag": "dandruff_care",
+  "patterns": [
+    "how to control dandruff",
+    "dandruff treatment",
+    "scalp care tips"
+  ],
+  "responses": [
+    "Regular scalp cleansing helps manage dandruff.",
+    "Avoid harsh chemicals and maintain scalp hygiene.",
+    "Keeping the scalp clean reduces flaking.",
+    "Mild anti-dandruff shampoos may help.",
+    "Consult a dermatologist if dandruff persists."
+  ]
+}
+,
+
+    {
+      "tag": "dandruff_do_dont",
+      "patterns": [
+        "Dandruff do and don't",
+        "What should I avoid for dandruff?"
+      ],
+      "responses": [
+        "Do: Wash scalp regularly. Don’t: Scratch excessively or use harsh chemicals. Consult a dermatologist if dandruff persists."
+      ]
+    },
+
+
+
+   {
+  "tag": "eczema_info",
+  "patterns": [
+    "what is eczema",
+    "eczema symptoms",
+    "itchy dry skin condition"
+  ],
+  "responses": [
+    "Eczema is a condition that causes dry, itchy, and inflamed skin.",
+    "It may be triggered by allergens or environmental factors.",
+    "Eczema often causes redness and irritation.",
+    "Skin dryness is a common symptom of eczema.",
+    "Eczema requires long-term skin care management."
+  ]
+}
+,
+
+    {
+      "tag": "eczema_care",
+      "patterns": [
+        "How to manage eczema?",
+        "Skin care for eczema"
+      ],
+      "responses": [
+        "Keeping skin moisturized, avoiding triggers, and following gentle skin care routines can help manage eczema."
+      ]
+    },
+
+
+
+    {
+  "tag": "fungal_info",
+  "patterns": [
+    "fungal infection causes",
+    "ringworm causes",
+    "fungal skin problem"
+  ],
+  "responses": [
+    "Fungal infections thrive in warm and moist environments.",
+    "Poor hygiene may increase fungal infection risk.",
+    "Excess sweating can promote fungal growth.",
+    "Keeping skin dry helps prevent fungal infections.",
+    "Fungal infections should be treated early."
+  ]
+}
+,
+
+    {
+      "tag": "fungal_care",
+      "patterns": [
+        "How to prevent fungal infection?",
+        "Fungal infection skin care"
+      ],
+      "responses": [
+        "Keeping skin clean and dry, wearing breathable clothing, and maintaining hygiene can help prevent fungal infections."
+      ]
+    },
+
+
+
+    {
+      "tag": "skin_hygiene",
+      "patterns": [
+        "How to keep skin healthy?",
+        "Daily skin care routine",
+        "Skin hygiene tips"
+      ],
+      "responses": [
+        "Regular cleansing, sun protection, hydration, and a healthy lifestyle help maintain good skin health."
+      ]
+    },
+
+    {
+      "tag": "skin_food",
+      "patterns": [
+        "Best food for healthy skin?",
+        "Diet for glowing skin"
+      ],
+      "responses": [
+        "A balanced diet rich in fruits, vegetables, and adequate water intake supports healthy skin."
+      ]
+    },
+
+
+
+    {
+      "tag": "hair_care",
+      "patterns": [
+        "Hair care tips",
+        "How to keep hair healthy?",
+        "Scalp care advice"
+      ],
+      "responses": [
+        "Gentle hair care, avoiding excessive heat or chemicals, and maintaining scalp hygiene support healthy hair."
+      ]
+    },
+
+
+
+    {
+  "tag": "when_to_see_doctor",
+  "patterns": [
+    "when should i see dermatologist",
+    "is my skin problem serious",
+    "do i need skin doctor"
+  ],
+  "responses": [
+    "Consult a dermatologist if symptoms persist or worsen.",
+    "Seek medical advice if home care does not help.",
+    "Chronic or painful skin issues require professional care.",
+    "A dermatologist can provide proper diagnosis.",
+    "Do not ignore persistent skin problems."
+  ]
+}
+,
+
+
+
+    {
+      "tag": "medical_disclaimer",
+      "patterns": [
+        "Suggest medicine",
+        "Give treatment",
+        "How to cure acne fast?",
+        "Can you diagnose?"
+      ],
+      "responses": [
+        "I provide general information only and cannot diagnose or recommend medications. Please consult a certified dermatologist."
+      ]
+    },
+   {
+  "tag": "fallback",
+  "patterns": [],
+  "responses": [
+    "Sorry, I can help only with dermatology-related questions.",
+    "I didn’t understand that. Please ask about skin or hair health.",
+    "That seems unrelated. Try asking a dermatology question.",
+    "I’m trained only for skin and hair care topics.",
+    "Please ask something related to dermatology."
+  ]
+}
+
+
+
+  ]
+}
