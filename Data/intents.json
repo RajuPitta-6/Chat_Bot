@@ -3,293 +3,1005 @@
 
     {
   "tag": "greeting",
-  "patterns": ["hi", "hello", "hey", "good morning", "good evening"],
+  "patterns": [
+    "hi",
+    "hello",
+    "hey",
+    "hey there",
+    "hi there",
+    "hello there",
+    "good morning",
+    "good afternoon",
+    "good evening",
+    "how are you",
+    "how are you doing",
+    "what's up",
+    "whats up",
+    "hey buddy",
+    "hi buddy",
+    "hello bot",
+    "hi bot",
+    "hey bot",
+    "is anyone there",
+    "can you help me",
+    "i need some help",
+    "can you assist me",
+    "start",
+    "let's start"
+  ],
   "responses": [
-    "Hello! I can help with general dermatology-related information.",
-    "Hi there! Ask me anything related to skin or hair care.",
-    "Hello! I’m here to answer dermatology-related questions.",
-    "Hey! How can I help you with skin health today?"
+    "Hello! How can I help you today?",
+    "Hi there! Feel free to ask me anything related to skin or acne.",
+    "Hey! I'm here to help. What would you like to know?",
+    "Hello! Please tell me how I can assist you."
   ]
-}
-,
-
-    {
-      "tag": "goodbye",
-      "patterns": ["Bye", "Goodbye", "See you", "Exit"],
-      "responses": [
-        "Take care! If symptoms persist, please consult a dermatologist."
-      ]
-    },
-
-
-
-    {
+},{
+  "tag": "goodbye",
+  "patterns": [
+    "bye",
+    "bye bye",
+    "goodbye",
+    "see you",
+    "see you later",
+    "talk to you later",
+    "catch you later",
+    "take care",
+    "thanks bye",
+    "thank you bye",
+    "ok bye",
+    "alright bye",
+    "i am leaving",
+    "i have to go",
+    "end chat",
+    "close chat",
+    "exit",
+    "quit",
+    "stop",
+    "that's all",
+    "nothing else",
+    "no more questions"
+  ],
+  "responses": [
+    "Goodbye! Take care and have a great day.",
+    "Thanks for chatting. Feel free to come back anytime!",
+    "Bye! If you have more questions later, I’ll be here.",
+    "Take care! Wishing you good health."
+  ]
+},{
   "tag": "acne_causes",
   "patterns": [
     "what causes acne",
-    "why pimples occur",
-    "acne reasons",
-    "why do i get pimples",
-    "causes of acne"
+    "why do i get acne",
+    "why acne happens",
+    "why acne occurs",
+    "main cause of acne",
+    "reasons for acne",
+    "why pimples come",
+    "why pimples occur on face",
+    "what leads to acne",
+    "why i have acne problem",
+    "what is the reason for acne",
+    "acne causes",
+    "pimple causes",
+    "why am i getting pimples",
+    "why do pimples appear",
+    "why acne suddenly appears",
+    "why acne keeps coming back",
+    "what causes face pimples",
+    "why acne problem increases",
+    "why acne is common"
   ],
   "responses": [
-    "Acne occurs due to clogged pores, excess oil production, bacteria, and hormonal changes.",
-    "Hormonal imbalance, oily skin, and blocked pores are common causes of acne.",
-    "Stress, genetics, and lifestyle habits can contribute to acne formation.",
-    "Acne develops when oil and dead skin cells clog hair follicles.",
-    "Poor skincare routines and hormonal fluctuations may worsen acne."
+    "Acne is mainly caused by excess oil production, clogged pores, bacteria, and inflammation of the skin.",
+    "Hormonal changes, especially during puberty or stress, are a common reason for acne.",
+    "Poor skincare habits, oily products, and environmental pollution can also trigger acne.",
+    "Diet, stress, lack of sleep, and certain medications may increase the chances of acne."
   ]
-}
-,
-
-    {
+},{
+  "tag": "acne_symptoms",
+  "patterns": [
+    "acne symptoms",
+    "signs of acne",
+    "how acne looks",
+    "how to identify acne",
+    "what are the symptoms of acne",
+    "acne signs on face",
+    "types of acne",
+    "different types of pimples",
+    "blackheads and whiteheads",
+    "red pimples on face",
+    "painful pimples",
+    "swollen acne bumps",
+    "pus filled pimples",
+    "small bumps on skin",
+    "acne on face symptoms",
+    "acne on back symptoms",
+    "acne on chest symptoms",
+    "itchy pimples on face",
+    "burning sensation pimples",
+    "hard pimples under skin"
+  ],
+  "responses": [
+    "Common symptoms of acne include blackheads, whiteheads, red pimples, and pus-filled bumps on the skin.",
+    "Acne may appear as inflamed, painful, or swollen pimples, especially on the face, chest, shoulders, or back.",
+    "Some people experience tenderness, itching, or a burning sensation in acne-affected areas.",
+    "Severe acne can include deep, hard lumps under the skin known as cysts or nodules."
+  ]
+},{
   "tag": "acne_care",
   "patterns": [
     "how to take care of acne",
-    "acne skin care tips",
-    "how can i manage pimples",
-    "acne care routine"
+    "acne care tips",
+    "daily care for acne",
+    "how to care for acne prone skin",
+    "skincare routine for acne",
+    "how should i care my acne",
+    "acne skin care",
+    "face care for acne",
+    "how to maintain acne skin",
+    "best care for acne skin",
+    "what care should i take for acne",
+    "acne care routine",
+    "daily routine for pimples",
+    "how to look after acne",
+    "how to handle acne skin",
+    "acne face care tips",
+    "basic care for pimples",
+    "acne maintenance tips",
+    "how to keep acne under control",
+    "acne friendly skincare"
   ],
   "responses": [
-    "Gentle cleansing and avoiding harsh products help control acne.",
-    "Maintaining a consistent skincare routine can reduce acne breakouts.",
-    "Avoid touching or squeezing pimples to prevent scarring.",
-    "Use non-comedogenic products and keep your skin clean.",
-    "Persistent acne should be evaluated by a dermatologist."
+    "Acne care involves gentle cleansing twice a day and avoiding harsh scrubs that can irritate the skin.",
+    "Use non-comedogenic skincare products to prevent clogged pores and reduce breakouts.",
+    "Avoid touching or picking acne, as it can worsen inflammation and cause scars.",
+    "Maintaining a healthy lifestyle, staying hydrated, and managing stress also help in acne care."
   ]
-}
-,
-
-    {
-  "tag": "acne_food",
+},{
+  "tag": "acne_prevention",
   "patterns": [
-    "best food for acne",
-    "foods to reduce pimples",
-    "acne control foods",
-    "diet for acne",
-    "what should i eat for acne",
-    "foods to avoid for acne",
-    "does food cause acne"
+    "how to prevent acne",
+    "how to avoid acne",
+    "ways to prevent pimples",
+    "how to stop acne",
+    "acne prevention tips",
+    "how to reduce acne",
+    "how to avoid pimples on face",
+    "prevent acne naturally",
+    "how to keep acne away",
+    "how to avoid acne breakouts",
+    "how to prevent face pimples",
+    "how to control acne before it starts",
+    "how to stop pimples from coming",
+    "best ways to prevent acne",
+    "how to prevent acne on face",
+    "how to prevent acne permanently",
+    "how to avoid recurring acne",
+    "how to prevent sudden acne",
+    "tips to prevent pimples",
+    "acne prevention methods"
   ],
   "responses": [
-    "A balanced diet with fruits, vegetables, whole grains, and enough water supports healthy skin.",
-    "Eating fresh fruits, leafy vegetables, and avoiding excessive junk food may help manage acne.",
-    "Diet alone cannot cure acne, but healthy eating habits support overall skin health.",
-    "Foods with low sugar and less oil are generally better for acne-prone skin.",
-    "Staying hydrated and maintaining a balanced diet can reduce acne flare-ups."
+    "Preventing acne involves maintaining a regular skincare routine and keeping the skin clean.",
+    "Using non-comedogenic products and avoiding oily cosmetics can help prevent clogged pores.",
+    "Eating a balanced diet, staying hydrated, and managing stress play an important role in acne prevention.",
+    "Avoid touching your face frequently and make sure to remove makeup before sleeping."
   ]
-}
-,
-
-    {
-  "tag": "acne_do_dont",
+},{
+  "tag": "acne_treatment",
   "patterns": [
-    "acne do and dont",
-    "what should i do for acne",
-    "what not to do for pimples"
+    "how to treat acne",
+    "acne treatment",
+    "how to cure acne",
+    "best treatment for acne",
+    "how to remove acne",
+    "treatment for pimples",
+    "how to get rid of acne",
+    "what is the best acne treatment",
+    "acne treatment options",
+    "how to treat face acne",
+    "how to treat severe acne",
+    "medicine for acne",
+    "cream for pimples",
+    "acne treatment for adults",
+    "acne treatment for teenagers",
+    "how to heal acne fast",
+    "acne treatment methods",
+    "what helps with acne",
+    "how to control acne breakouts",
+    "professional treatment for acne"
   ],
   "responses": [
-    "Do keep your skin clean; don’t squeeze pimples.",
-    "Avoid overwashing your face as it may irritate skin.",
-    "Use gentle products and avoid harsh scrubs.",
-    "Consult a dermatologist if acne persists.",
-    "Maintain hygiene and avoid touching your face frequently."
+    "Acne treatment usually includes gentle cleansing and topical products like benzoyl peroxide or salicylic acid.",
+    "For moderate to severe acne, dermatologists may prescribe topical or oral medications.",
+    "Consistency is important—acne treatments take time to show results and should be used regularly.",
+    "If acne is painful, widespread, or leaving scars, it is best to consult a dermatologist for proper treatment."
   ]
-}
-,
-
-
-
-    {
+},{
+  "tag": "skin_care",
+  "patterns": [
+    "how to take care of skin",
+    "skin care tips",
+    "what should i do for skin care",
+    "how to maintain good skin",
+    "daily skin care routine",
+    "how can i improve my skin",
+    "skin care routine for me",
+    "what is best for skin care",
+    "how to keep skin healthy",
+    "i want good skin what to do",
+    "my skin looks dull what should i do",
+    "how to take care of face skin",
+    "what should i apply on my face daily",
+    "how to care skin properly",
+    "tell me skin care routine",
+    "how people take care of skin",
+    "best way to care skin",
+    "what helps skin to glow",
+    "how to look after skin daily",
+    "how to get healthy skin",
+    "how to keep face clean",
+    "what should i use for skin",
+    "skin care advice",
+    "how to make skin better",
+    "simple skin care tips",
+    "what should i do daily for skin",
+    "how to maintain skin naturally",
+    "skin care tips for beginners",
+    "i dont know how to take care of skin",
+    "guide me for skin care"
+  ],
+  "responses": [
+    "A simple skin care routine includes gentle cleansing, moisturizing, and protecting your skin from sun exposure.",
+    "Keeping your skin clean, hydrated, and using suitable products regularly helps maintain healthy skin.",
+    "Avoid harsh products, drink enough water, eat healthy food, and get proper sleep for better skin health.",
+    "Consistency is key—following a basic daily skin care routine can improve skin over time."
+  ]
+},{
+  "tag": "healthy_foods_hair_health",
+  "patterns": [
+    "healthy foods for hair",
+    "foods for healthy hair",
+    "what should i eat for healthy hair",
+    "best foods for hair growth",
+    "diet for good hair",
+    "foods that improve hair health",
+    "what food is good for hair",
+    "healthy food for hair and body",
+    "foods for hair and health",
+    "what should i eat to stay healthy",
+    "healthy foods for body",
+    "diet for good health",
+    "what food keeps body healthy",
+    "foods to improve health",
+    "healthy eating for hair",
+    "foods that make hair strong",
+    "what should i eat daily for health",
+    "good food habits for health",
+    "best diet for hair and health",
+    "foods that help hair and skin",
+    "what to eat for overall health",
+    "healthy diet for daily life",
+    "foods that give strength to body",
+    "natural foods for hair growth",
+    "what food makes hair thick",
+    "simple healthy food for body",
+    "foods for strong hair and good health",
+    "healthy foods people should eat daily",
+    "i want healthy hair and body what to eat",
+    "suggest healthy foods for hair and health"
+  ],
+  "responses": [
+    "A healthy diet for hair and overall health includes fruits, vegetables, whole grains, nuts, and seeds.",
+    "Protein-rich foods like eggs, lentils, beans, and yogurt help support hair strength and body health.",
+    "Eating leafy greens, fruits, and foods rich in vitamins and minerals helps improve hair quality and immunity.",
+    "Staying hydrated and maintaining a balanced diet plays an important role in keeping both hair and body healthy."
+  ]
+},{
+  "tag": "hair_skin_healthy_foods",
+  "patterns": [
+    "healthy foods for hair and skin",
+    "foods good for hair and skin",
+    "what should i eat for hair and skin",
+    "diet for healthy hair and skin",
+    "best foods for hair and skin",
+    "foods that improve hair and skin",
+    "what food is good for hair and skin",
+    "natural foods for hair and skin",
+    "healthy diet for hair and skin",
+    "foods that make hair and skin healthy",
+    "what to eat for glowing skin and strong hair",
+    "foods for hair growth and skin glow",
+    "good food habits for hair and skin",
+    "what should i eat daily for hair and skin",
+    "foods that help hair and skin health",
+    "balanced diet for hair and skin",
+    "i want good hair and skin what to eat",
+    "foods that support hair and skin",
+    "simple foods for hair and skin care",
+    "healthy eating for hair and skin",
+    "foods for clear skin and healthy hair",
+    "diet tips for hair and skin",
+    "what foods are best for skin and hair",
+    "hair and skin food suggestions",
+    "nutrition for hair and skin",
+    "foods that improve skin and hair quality",
+    "daily diet for better hair and skin",
+    "foods to keep hair and skin healthy",
+    "natural diet for hair and skin health",
+    "suggest foods for hair and skin"
+  ],
+  "responses": [
+    "A balanced diet for hair and skin includes fruits, vegetables, whole grains, nuts, and seeds.",
+    "Foods rich in protein, vitamins, and minerals help support healthy hair growth and clear skin.",
+    "Leafy greens, fruits, and healthy fats contribute to better skin glow and stronger hair.",
+    "Staying hydrated and maintaining a balanced diet plays an important role in hair and skin health."
+  ]
+},{
+  "tag": "best_foods_for_skin",
+  "patterns": [
+    "best foods for skin",
+    "foods good for skin",
+    "what food is good for skin",
+    "what should i eat for healthy skin",
+    "diet for good skin",
+    "foods that improve skin",
+    "foods for glowing skin",
+    "healthy foods for skin",
+    "what to eat for clear skin",
+    "foods that make skin healthy",
+    "what food makes skin glow",
+    "natural foods for skin",
+    "best diet for skin health",
+    "foods that help skin glow",
+    "what should i eat daily for skin",
+    "skin healthy foods",
+    "foods for better skin",
+    "what to eat to improve skin",
+    "simple foods for good skin",
+    "best food habits for skin",
+    "foods that keep skin healthy",
+    "nutrition for skin health",
+    "what foods are best for face skin",
+    "good foods for face skin",
+    "foods that support skin health",
+    "i want good skin what to eat",
+    "diet tips for healthy skin",
+    "foods that improve skin naturally",
+    "what should i eat for skin glow",
+    "suggest foods for skin"
+  ],
+  "responses": [
+    "Foods that are good for skin include fruits, vegetables, whole grains, nuts, and seeds.",
+    "Eating foods rich in vitamins, minerals, and antioxidants helps keep the skin healthy and glowing.",
+    "Leafy greens, fruits, and healthy fats support skin hydration and overall skin health.",
+    "Drinking enough water and maintaining a balanced diet plays an important role in healthy skin."
+  ]
+},{
+  "tag": "hair_care",
+  "patterns": [
+    "how to take care of hair",
+    "hair care tips",
+    "daily hair care routine",
+    "how to maintain healthy hair",
+    "how should i care my hair",
+    "hair care routine for me",
+    "how to look after hair",
+    "basic hair care tips",
+    "what should i do for hair care",
+    "how to keep hair healthy",
+    "hair care advice",
+    "simple hair care routine",
+    "how people take care of hair",
+    "how to care hair properly",
+    "guide me for hair care"
+  ],
+  "responses": [
+    "Hair care involves regular washing with a mild shampoo and keeping the scalp clean.",
+    "Using suitable hair products and avoiding excessive heat helps maintain healthy hair.",
+    "Gentle handling, proper nutrition, and regular oiling can improve hair health.",
+    "Consistency in a simple hair care routine gives better long-term results."
+  ]
+},{
+  "tag": "hair_treatment",
+  "patterns": [
+    "hair treatment",
+    "how to treat hair problems",
+    "treatment for hair fall",
+    "how to cure hair fall",
+    "best treatment for hair",
+    "hair loss treatment",
+    "how to stop hair fall",
+    "medicine for hair fall",
+    "hair treatment options",
+    "how to treat damaged hair",
+    "professional hair treatment",
+    "how to repair damaged hair"
+  ],
+  "responses": [
+    "Hair treatment depends on the cause and may include proper scalp care and suitable hair products.",
+    "For hair fall or severe damage, medical treatments or professional consultation may be required.",
+    "Using the right treatment consistently helps improve hair condition over time.",
+    "If hair problems persist, consulting a dermatologist is recommended."
+  ]
+},{
+  "tag": "hair_damage_causes",
+  "patterns": [
+    "what causes hair damage",
+    "reasons for hair damage",
+    "why hair gets damaged",
+    "hair damage causes",
+    "why my hair is damaged",
+    "causes of hair breakage",
+    "what damages hair",
+    "why hair becomes weak",
+    "reasons for dry and damaged hair",
+    "why hair quality reduces"
+  ],
+  "responses": [
+    "Hair damage can be caused by excessive heat styling, chemical treatments, and harsh products.",
+    "Lack of proper nutrition and dehydration can weaken hair over time.",
+    "Environmental factors like sun exposure and pollution may also damage hair.",
+    "Rough handling and frequent washing can lead to hair breakage."
+  ]
+},{
+  "tag": "tips_for_good_hair",
+  "patterns": [
+    "tips for good hair",
+    "how to get good hair",
+    "tips for healthy hair",
+    "how to improve hair quality",
+    "best tips for hair",
+    "how to make hair strong",
+    "hair improvement tips",
+    "how to get shiny hair",
+    "tips to maintain good hair",
+    "how to keep hair strong and healthy",
+    "natural tips for good hair",
+    "simple tips for healthy hair"
+  ],
+  "responses": [
+    "Maintaining a balanced diet and staying hydrated are important for good hair health.",
+    "Regular scalp care, gentle washing, and avoiding excessive heat help improve hair quality.",
+    "Managing stress and getting enough sleep can positively affect hair health.",
+    "Consistency in healthy habits leads to stronger and better-looking hair over time."
+  ]
+},{
   "tag": "dandruff_causes",
   "patterns": [
+    "what causes dandruff",
     "why dandruff happens",
-    "causes of dandruff",
-    "white flakes on scalp"
+    "reasons for dandruff",
+    "why i get dandruff",
+    "dandruff causes",
+    "why flakes come on scalp",
+    "why dandruff keeps coming",
+    "main cause of dandruff",
+    "what leads to dandruff",
+    "why scalp gets flaky"
   ],
   "responses": [
-    "Dandruff can be caused by dry scalp or excess oil production.",
-    "Fungal growth on the scalp may lead to dandruff.",
-    "Weather changes and stress can worsen dandruff.",
-    "Using harsh hair products may trigger dandruff.",
-    "Poor scalp hygiene may contribute to dandruff."
+    "Dandruff is commonly caused by excess oil on the scalp, dry skin, or a yeast-like fungus.",
+    "Irregular hair washing and sensitivity to hair products can contribute to dandruff.",
+    "Stress, cold weather, and poor scalp hygiene may worsen dandruff.",
+    "Certain skin conditions like seborrheic dermatitis can also cause dandruff."
   ]
-}
-,
-
-{
+},{
   "tag": "dandruff_care",
   "patterns": [
-    "how to control dandruff",
+    "how to take care of dandruff",
+    "dandruff care tips",
+    "daily care for dandruff",
+    "how to manage dandruff",
+    "scalp care for dandruff",
+    "how to maintain dandruff scalp",
+    "basic care for dandruff",
+    "how to look after dandruff scalp"
+  ],
+  "responses": [
+    "Regular scalp cleansing and keeping the scalp clean helps manage dandruff.",
+    "Use gentle hair products and avoid scratching the scalp.",
+    "Maintaining a healthy lifestyle and managing stress can reduce dandruff.",
+    "Consistent scalp care is important to keep flakes under control."
+  ]
+},{
+  "tag": "dandruff_treatment",
+  "patterns": [
+    "how to treat dandruff",
     "dandruff treatment",
-    "scalp care tips"
+    "how to remove dandruff",
+    "best treatment for dandruff",
+    "dandruff cure",
+    "treatment for flaky scalp",
+    "how to get rid of dandruff",
+    "medicine for dandruff",
+    "dandruff treatment shampoo"
   ],
   "responses": [
-    "Regular scalp cleansing helps manage dandruff.",
-    "Avoid harsh chemicals and maintain scalp hygiene.",
-    "Keeping the scalp clean reduces flaking.",
-    "Mild anti-dandruff shampoos may help.",
-    "Consult a dermatologist if dandruff persists."
+    "Dandruff treatment often includes using anti-dandruff shampoos as recommended.",
+    "Regular use of suitable treatment products can help control flakes.",
+    "If dandruff is severe or persistent, consulting a dermatologist is advised.",
+    "Treatment should be continued consistently for best results."
   ]
-}
-,
-
-    {
-      "tag": "dandruff_do_dont",
-      "patterns": [
-        "Dandruff do and don't",
-        "What should I avoid for dandruff?"
-      ],
-      "responses": [
-        "Do: Wash scalp regularly. Don’t: Scratch excessively or use harsh chemicals. Consult a dermatologist if dandruff persists."
-      ]
-    },
-
-
-
-   {
-  "tag": "eczema_info",
+},{
+  "tag": "dandruff_prevention",
   "patterns": [
-    "what is eczema",
-    "eczema symptoms",
-    "itchy dry skin condition"
+    "how to prevent dandruff",
+    "how to avoid dandruff",
+    "ways to prevent dandruff",
+    "dandruff prevention tips",
+    "how to stop dandruff",
+    "how to avoid flaky scalp",
+    "prevent dandruff naturally"
   ],
   "responses": [
-    "Eczema is a condition that causes dry, itchy, and inflamed skin.",
-    "It may be triggered by allergens or environmental factors.",
-    "Eczema often causes redness and irritation.",
-    "Skin dryness is a common symptom of eczema.",
-    "Eczema requires long-term skin care management."
+    "Preventing dandruff involves regular hair washing and maintaining scalp hygiene.",
+    "Avoid using harsh hair products and manage stress levels.",
+    "Keeping the scalp moisturized and clean helps reduce flaking.",
+    "A healthy diet and proper hair care routine support dandruff prevention."
   ]
-}
-,
-
-    {
-      "tag": "eczema_care",
-      "patterns": [
-        "How to manage eczema?",
-        "Skin care for eczema"
-      ],
-      "responses": [
-        "Keeping skin moisturized, avoiding triggers, and following gentle skin care routines can help manage eczema."
-      ]
-    },
-
-
-
-    {
-  "tag": "fungal_info",
+},{
+  "tag": "dandruff_symptoms",
   "patterns": [
-    "fungal infection causes",
-    "ringworm causes",
-    "fungal skin problem"
+    "dandruff symptoms",
+    "signs of dandruff",
+    "how dandruff looks",
+    "white flakes on scalp",
+    "itchy scalp with flakes",
+    "how to know if i have dandruff",
+    "dry flakes on scalp",
+    "scalp itching and flakes"
   ],
   "responses": [
-    "Fungal infections thrive in warm and moist environments.",
-    "Poor hygiene may increase fungal infection risk.",
-    "Excess sweating can promote fungal growth.",
-    "Keeping skin dry helps prevent fungal infections.",
-    "Fungal infections should be treated early."
+    "Common dandruff symptoms include white flakes on the scalp and shoulders.",
+    "An itchy or dry scalp is often associated with dandruff.",
+    "Flaking may increase during cold or dry weather.",
+    "Severe dandruff can cause redness or irritation on the scalp."
   ]
-}
-,
-
-    {
-      "tag": "fungal_care",
-      "patterns": [
-        "How to prevent fungal infection?",
-        "Fungal infection skin care"
-      ],
-      "responses": [
-        "Keeping skin clean and dry, wearing breathable clothing, and maintaining hygiene can help prevent fungal infections."
-      ]
-    },
-
-
-
-    {
-      "tag": "skin_hygiene",
-      "patterns": [
-        "How to keep skin healthy?",
-        "Daily skin care routine",
-        "Skin hygiene tips"
-      ],
-      "responses": [
-        "Regular cleansing, sun protection, hydration, and a healthy lifestyle help maintain good skin health."
-      ]
-    },
-
-    {
-      "tag": "skin_food",
-      "patterns": [
-        "Best food for healthy skin?",
-        "Diet for glowing skin"
-      ],
-      "responses": [
-        "A balanced diet rich in fruits, vegetables, and adequate water intake supports healthy skin."
-      ]
-    },
-
-
-
-    {
-      "tag": "hair_care",
-      "patterns": [
-        "Hair care tips",
-        "How to keep hair healthy?",
-        "Scalp care advice"
-      ],
-      "responses": [
-        "Gentle hair care, avoiding excessive heat or chemicals, and maintaining scalp hygiene support healthy hair."
-      ]
-    },
-
-
-
-    {
-  "tag": "when_to_see_doctor",
+},{
+  "tag": "dry_scalp_vs_dandruff",
   "patterns": [
-    "when should i see dermatologist",
-    "is my skin problem serious",
-    "do i need skin doctor"
+    "dry scalp or dandruff",
+    "difference between dry scalp and dandruff",
+    "how to know dry scalp or dandruff",
+    "is it dandruff or dry scalp",
+    "flakes dry scalp or dandruff",
+    "how to identify dandruff or dry scalp"
   ],
   "responses": [
-    "Consult a dermatologist if symptoms persist or worsen.",
-    "Seek medical advice if home care does not help.",
-    "Chronic or painful skin issues require professional care.",
-    "A dermatologist can provide proper diagnosis.",
-    "Do not ignore persistent skin problems."
+    "Dry scalp is usually caused by lack of moisture, while dandruff is often related to excess oil or fungal growth.",
+    "Dry scalp flakes are small and dry, whereas dandruff flakes are larger and oily.",
+    "Itching can occur in both, but dandruff often comes with redness and irritation.",
+    "A dermatologist can help identify the exact scalp condition."
   ]
-}
-,
-
-
-
-    {
-      "tag": "medical_disclaimer",
-      "patterns": [
-        "Suggest medicine",
-        "Give treatment",
-        "How to cure acne fast?",
-        "Can you diagnose?"
-      ],
-      "responses": [
-        "I provide general information only and cannot diagnose or recommend medications. Please consult a certified dermatologist."
-      ]
-    },
-   {
+},{
+  "tag": "itchy_scalp",
+  "patterns": [
+    "itchy scalp",
+    "why my scalp is itching",
+    "scalp itching problem",
+    "itching on head",
+    "why scalp itches a lot",
+    "constant scalp itching",
+    "itchy scalp causes"
+  ],
+  "responses": [
+    "An itchy scalp can be caused by dandruff, dryness, or product buildup.",
+    "Allergic reactions to hair products may also lead to scalp itching.",
+    "Scratching the scalp frequently can worsen irritation.",
+    "If itching is severe or persistent, medical advice is recommended."
+  ]
+},{
+  "tag": "oily_scalp",
+  "patterns": [
+    "oily scalp",
+    "why my scalp is oily",
+    "greasy scalp problem",
+    "excess oil on scalp",
+    "scalp gets oily fast",
+    "oily scalp causes"
+  ],
+  "responses": [
+    "An oily scalp is caused by excess sebum production from the scalp.",
+    "Hormonal changes, stress, and frequent touching of hair can increase oiliness.",
+    "Using mild shampoos and avoiding over-washing can help manage oily scalp.",
+    "Maintaining a balanced routine helps control scalp oil levels."
+  ]
+},{
+  "tag": "scalp_buildup",
+  "patterns": [
+    "scalp buildup",
+    "white layer on scalp",
+    "product buildup on scalp",
+    "dead skin on scalp",
+    "why scalp feels dirty",
+    "scalp buildup problem"
+  ],
+  "responses": [
+    "Scalp buildup occurs due to accumulation of dead skin cells and product residue.",
+    "Overuse of styling products can worsen buildup.",
+    "Regular cleansing and occasional scalp exfoliation may help.",
+    "Persistent buildup may require professional advice."
+  ]
+},{
+  "tag": "scalp_infection",
+  "patterns": [
+    "scalp infection",
+    "fungal infection on scalp",
+    "scalp infection symptoms",
+    "painful scalp",
+    "red patches on scalp",
+    "scalp sores",
+    "infection on head skin"
+  ],
+  "responses": [
+    "Scalp infections may cause redness, pain, sores, or severe itching.",
+    "Fungal or bacterial infections are common causes of scalp infections.",
+    "Avoid scratching or self-treatment if infection is suspected.",
+    "Consulting a dermatologist is important for proper diagnosis and treatment."
+  ]
+},{
+  "tag": "hair_fall_due_to_scalp",
+  "patterns": [
+    "hair fall due to dandruff",
+    "hair fall because of scalp issues",
+    "does dandruff cause hair fall",
+    "scalp problems and hair fall",
+    "hair loss due to itchy scalp"
+  ],
+  "responses": [
+    "Scalp issues like dandruff and infections can weaken hair roots and increase hair fall.",
+    "Inflammation and scratching may damage hair follicles.",
+    "Treating scalp conditions often helps reduce hair fall.",
+    "Persistent hair fall should be evaluated by a dermatologist."
+  ]
+},{
+  "tag": "hair_fall",
+  "patterns": [
+    "hair fall",
+    "hair falling too much",
+    "my hair is falling",
+    "excessive hair fall",
+    "i am facing hair fall",
+    "hair fall problem",
+    "why my hair is falling",
+    "hair loss issue",
+    "losing hair daily",
+    "hair fall increasing",
+    "severe hair fall",
+    "hair fall on head",
+    "hair fall while combing",
+    "hair fall while washing",
+    "hair shedding problem",
+    "hair is thinning",
+    "i am losing hair",
+    "hair fall from roots",
+    "hair loss on scalp",
+    "too much hair fall suddenly",
+    "hair fall for few months",
+    "hair fall daily",
+    "hair coming out a lot",
+    "hair loss problem"
+  ],
+  "responses": [
+    "Hair fall is a common issue and can happen due to stress, diet, lifestyle, or scalp problems.",
+    "Temporary hair fall can occur because of hormonal changes, illness, or poor nutrition.",
+    "Identifying the cause is important to manage hair fall effectively.",
+    "If hair fall is severe or long-lasting, consulting a dermatologist is recommended."
+  ]
+},{
+  "tag": "skin_types",
+  "patterns": [
+    "what are skin types",
+    "what is my skin type",
+    "how to know my skin type",
+    "how to identify skin type",
+    "types of skin",
+    "different skin types",
+    "is my skin oily or dry",
+    "how can i find my skin type",
+    "how to check skin type",
+    "what kind of skin do i have",
+    "how to understand my skin type",
+    "skin type identification",
+    "how to know if my skin is oily",
+    "how to know if my skin is dry",
+    "how to know if my skin is combination",
+    "how to know if my skin is sensitive",
+    "how to find skin type at home",
+    "tell me my skin type",
+    "what skin type am i",
+    "how do i know my skin type"
+  ],
+  "responses": [
+    "Common skin types include oily, dry, combination, normal, and sensitive skin.",
+    "You can identify your skin type by observing how your skin feels after cleansing and waiting for some time.",
+    "Oily skin often feels greasy, dry skin feels tight, and combination skin has both oily and dry areas.",
+    "Understanding your skin type helps in choosing the right skincare products."
+  ]
+},{
+  "tag": "dark_spots",
+  "patterns": [
+    "dark spots on face",
+    "black spots on face",
+    "why dark spots appear",
+    "what causes dark spots",
+    "dark spots problem",
+    "spots on face",
+    "brown spots on skin",
+    "dark marks on face",
+    "why i have dark spots",
+    "face spots after pimples",
+    "hyperpigmentation",
+    "uneven skin tone with spots",
+    "dark spots on cheeks",
+    "dark spots on forehead",
+    "spots on skin why",
+    "old marks on face",
+    "dark patches on skin",
+    "skin pigmentation problem",
+    "why face has spots",
+    "how dark spots form"
+  ],
+  "responses": [
+    "Dark spots are areas of increased pigmentation and can appear due to sun exposure, acne marks, or skin inflammation.",
+    "Hormonal changes, aging, and skin injuries may also cause dark spots on the skin.",
+    "Sun exposure without protection is a common reason for dark spots becoming more visible.",
+    "If dark spots are persistent or spreading, consulting a dermatologist is recommended."
+  ]
+},{
+  "tag": "pigmentation",
+  "patterns": [
+    "pigmentation on face",
+    "skin pigmentation",
+    "what is pigmentation",
+    "why pigmentation happens",
+    "pigmentation problem",
+    "uneven pigmentation on face",
+    "dark pigmentation on skin",
+    "pigmentation marks",
+    "why my skin has pigmentation",
+    "face pigmentation issue",
+    "skin discoloration problem",
+    "patches of pigmentation on skin",
+    "hyperpigmentation problem",
+    "why pigmentation increases",
+    "pigmentation on cheeks",
+    "pigmentation on forehead",
+    "pigmentation on neck",
+    "skin color uneven problem",
+    "why skin color changes",
+    "pigmentation causes"
+  ],
+  "responses": [
+    "Pigmentation refers to uneven skin color caused by excess melanin production in certain areas.",
+    "Common causes of pigmentation include sun exposure, hormonal changes, aging, and skin inflammation.",
+    "Pigmentation can appear as dark patches or uneven skin tone on the face or body.",
+    "Persistent or worsening pigmentation should be evaluated by a dermatologist."
+  ]
+},{
+  "tag": "sun_tan",
+  "patterns": [
+    "sun tan",
+    "sun tan on face",
+    "why sun tan happens",
+    "how sun tan occurs",
+    "face tan problem",
+    "sun tanning issue",
+    "tan due to sun",
+    "why my skin got tanned",
+    "sun tan on skin",
+    "sun tan on hands",
+    "sun tan on neck",
+    "sun tan after travelling",
+    "skin dark after sun exposure",
+    "sun tan marks",
+    "why skin becomes dark in sun",
+    "sun damage on skin",
+    "tanned skin problem",
+    "sun tan causes",
+    "face looks dark after sun",
+    "sun tan symptoms"
+  ],
+  "responses": [
+    "Sun tan occurs when the skin produces more melanin to protect itself from sun exposure.",
+    "Prolonged exposure to sunlight without protection can cause tanning and skin darkening.",
+    "Sun tan is usually temporary but repeated exposure can lead to long-term skin damage.",
+    "Using sun protection and limiting direct sun exposure can help reduce tanning."
+  ]
+},{
+  "tag": "uneven_skin_tone",
+  "patterns": [
+    "uneven skin tone",
+    "skin tone uneven",
+    "uneven skin color",
+    "my skin tone is uneven",
+    "why my skin tone is uneven",
+    "patchy skin tone",
+    "uneven face color",
+    "skin looks uneven",
+    "uneven complexion",
+    "face color uneven problem",
+    "why face color is not same",
+    "different skin color on face",
+    "skin tone difference on face",
+    "uneven skin tone on face",
+    "uneven skin shade",
+    "skin color not even",
+    "uneven tone on cheeks",
+    "uneven skin tone causes",
+    "why my face looks patchy",
+    "uneven color on skin"
+  ],
+  "responses": [
+    "Uneven skin tone occurs when different areas of the skin produce varying amounts of melanin.",
+    "Common causes include sun exposure, pigmentation, acne marks, and skin inflammation.",
+    "Environmental factors, aging, and lack of proper skin protection can also affect skin tone.",
+    "If uneven skin tone persists or worsens, consulting a dermatologist is recommended."
+  ]
+},{
+  "tag": "skin_allergy_reaction",
+  "patterns": [
+    "skin allergy",
+    "skin allergy reaction",
+    "allergic reaction on skin",
+    "skin rashes",
+    "sudden rashes on skin",
+    "itchy skin allergy",
+    "red rashes on skin",
+    "skin irritation problem",
+    "skin itching suddenly",
+    "face allergy reaction",
+    "skin allergy on face",
+    "burning sensation on skin",
+    "skin swelling due to allergy",
+    "skin reaction after using product",
+    "allergy after applying cream",
+    "skin reaction after soap",
+    "skin reaction after makeup",
+    "skin reaction after food",
+    "skin redness and itching",
+    "skin allergy symptoms"
+  ],
+  "responses": [
+    "Skin allergy reactions can cause redness, itching, rashes, swelling, or a burning sensation.",
+    "They may occur due to cosmetics, soaps, detergents, foods, medications, or environmental factors.",
+    "Avoid using any new or suspected products if a skin reaction occurs.",
+    "If symptoms are severe, spreading, painful, or not improving, consult a dermatologist immediately."
+  ]
+},{
+  "tag": "acne_scars",
+  "patterns": [
+    "acne scars",
+    "pimple scars",
+    "acne marks on face",
+    "pimple marks on face",
+    "marks after acne",
+    "why acne scars remain",
+    "how acne scars form",
+    "old pimple marks",
+    "acne scars problem",
+    "dark marks after pimples",
+    "acne scars on cheeks",
+    "acne scars on face",
+    "why pimple marks dont go",
+    "acne scars symptoms",
+    "face marks after acne",
+    "acne scar issue",
+    "pimple marks why",
+    "post acne scars",
+    "acne scars causes",
+    "how to identify acne scars"
+  ],
+  "responses": [
+    "Acne scars are marks or texture changes left on the skin after acne heals.",
+    "They can form due to inflammation, picking pimples, or delayed acne healing.",
+    "Acne scars may appear as dark marks, pits, or uneven skin texture.",
+    "Persistent or deep acne scars can be evaluated by a dermatologist for proper management."
+  ]
+},{
+  "tag": "sun_protection",
+  "patterns": [
+    "sun protection",
+    "how to protect skin from sun",
+    "sun protection tips",
+    "how to avoid sun damage",
+    "how to protect face from sun",
+    "do i need sunscreen",
+    "sun care for skin",
+    "how to prevent sun damage",
+    "sun safety for skin",
+    "how to protect skin in sunlight",
+    "sun exposure skin care",
+    "how to avoid tanning",
+    "protect skin from sunlight",
+    "sun protection routine"
+  ],
+  "responses": [
+    "Protecting your skin from the sun helps prevent tanning, pigmentation, and premature aging.",
+    "Limiting direct sun exposure and using sun protection measures can reduce skin damage.",
+    "Wearing protective clothing and avoiding peak sunlight hours helps protect the skin.",
+    "Consistent sun protection plays an important role in long-term skin health."
+  ]
+},{
+  "tag": "anti_aging",
+  "patterns": [
+    "anti aging",
+    "how to prevent aging",
+    "anti aging tips",
+    "how to slow aging",
+    "skin aging prevention",
+    "how to keep skin young",
+    "anti aging skin care",
+    "how to reduce aging signs",
+    "aging skin problem",
+    "how to look younger",
+    "how to delay skin aging",
+    "anti aging routine"
+  ],
+  "responses": [
+    "Anti-aging care focuses on maintaining healthy skin through proper care and lifestyle habits.",
+    "Sun protection, hydration, and good nutrition play an important role in slowing skin aging.",
+    "Healthy sleep, stress management, and gentle skincare help maintain youthful-looking skin.",
+    "Consistent care over time supports better skin aging outcomes."
+  ]
+},{
+  "tag": "wrinkles_and_fine_lines",
+  "patterns": [
+    "wrinkles on face",
+    "fine lines on face",
+    "why wrinkles appear",
+    "how wrinkles form",
+    "wrinkles problem",
+    "lines on face",
+    "aging lines on skin",
+    "fine lines under eyes",
+    "why face has wrinkles",
+    "early wrinkles",
+    "skin wrinkles issue",
+    "wrinkles and fine lines",
+    "how to reduce wrinkles naturally"
+  ],
+  "responses": [
+    "Wrinkles and fine lines develop as the skin loses elasticity with age.",
+    "Sun exposure, dehydration, and repeated facial movements can contribute to wrinkles.",
+    "Maintaining skin hydration and protecting skin from sun damage helps reduce early wrinkles.",
+    "Lifestyle factors like sleep and stress management also affect skin aging."
+  ]
+},{
+  "tag": "stress_effect_on_skin_hair",
+  "patterns": [
+    "stress effect on skin",
+    "stress effect on hair",
+    "can stress cause skin problems",
+    "can stress cause hair fall",
+    "stress and acne",
+    "stress related hair fall",
+    "stress impact on skin and hair",
+    "does stress affect skin",
+    "does stress affect hair",
+    "stress causing skin issues",
+    "stress causing hair loss",
+    "mental stress and skin",
+    "mental stress and hair fall",
+    "stress related skin problems"
+  ],
+  "responses": [
+    "Stress can affect both skin and hair by triggering inflammation and hormonal changes.",
+    "High stress levels may worsen acne, hair fall, and scalp problems.",
+    "Managing stress through healthy habits can positively impact skin and hair health.",
+    "Long-term stress may require lifestyle changes or professional support for better overall health."
+  ]
+},{
   "tag": "fallback",
-  "patterns": [],
+      "patterns" : [],
   "responses": [
-    "Sorry, I can help only with dermatology-related questions.",
-    "I didn’t understand that. Please ask about skin or hair health.",
-    "That seems unrelated. Try asking a dermatology question.",
-    "I’m trained only for skin and hair care topics.",
-    "Please ask something related to dermatology."
+    "Sorry, I didn’t understand that. Could you please rephrase your question?",
+    "I’m not sure I got that. Can you ask in a different way?",
+    "I can help with skin, hair, and dermatology related questions. Please ask something related.",
+    "Could you please provide a bit more detail so I can help you better?",
+    "I’m here to help, but I didn’t quite understand your request."
   ]
 }
-
-
-
   ]
 }

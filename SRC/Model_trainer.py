@@ -10,10 +10,12 @@ class ModelTrainer:
     def train(self, x, y):
         x_clean = TextPreprocessor.clean_text(x)
 
-        vectorizer = TfidfVectorizer(max_features=MAX_FEATURES)
+        vectorizer = TfidfVectorizer(ngram_range=(1, 2),max_df=0.9,
+                                     max_features=MAX_FEATURES,
+                                     min_df=2,sublinear_tf=True)
         X_vec = vectorizer.fit_transform(x_clean)
 
-        model = LinearSVC()
+        model = LinearSVC(C=2.0, class_weight='balanced',)
         model.fit(X_vec, y)
 
         joblib.dump(model, MODEL_PATH)
