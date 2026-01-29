@@ -992,7 +992,93 @@
     "Managing stress through healthy habits can positively impact skin and hair health.",
     "Long-term stress may require lifestyle changes or professional support for better overall health."
   ]
+},
+    {
+  "tag": "facewash_general",
+  "patterns": [
+    "face wash",
+    "which face wash is good",
+    "best face wash for skin",
+    "face wash ingredients",
+    "what should a face wash contain",
+    "soap or face wash for face",
+    "daily face wash suggestion"
+  ],
+  "responses": [
+    "A good face wash usually contains ingredients like glycerin for hydration, niacinamide for skin balance, aloe vera for soothing, and ceramides to protect the skin barrier.",
+    "Face washes are generally formulated with gentle cleansing agents along with ingredients such as glycerin, panthenol, and aloe vera to prevent dryness.",
+    "Checking for ingredients like niacinamide, ceramides, and glycerin helps in choosing a face wash suitable for regular use.",
+    "Using a mild face wash with skin-friendly ingredients helps maintain clean and healthy skin without irritation."
+  ]
 },{
+  "tag": "facewash_for_acne_pimples",
+  "patterns": [
+    "face wash for acne",
+    "face wash for pimples",
+    "acne face wash",
+    "pimple control face wash",
+    "which face wash is good for acne",
+    "cleanser for acne prone skin"
+  ],
+  "responses": [
+    "Face washes for acne or pimples usually contain salicylic acid to help unclog pores and control breakouts.",
+    "Common acne-control ingredients include salicylic acid, niacinamide, zinc compounds, aloe vera, and glycerin.",
+    "An acne-focused face wash should balance oil control and skin hydration using ingredients like salicylic acid, panthenol, and ceramides.",
+    "Using a gentle cleanser with acne-targeting ingredients consistently helps manage pimples without excessive dryness."
+  ]
+},
+{
+  "tag": "facewash_for_tan",
+  "patterns": [
+    "face wash for tan",
+    "tan removal face wash",
+    "soap for sun tan",
+    "face wash for tanned skin",
+    "which face wash reduces tan"
+  ],
+  "responses": [
+    "Face washes for tan often include mild exfoliating ingredients that help remove dead skin cells and dullness.",
+    "Ingredients like glycolic acid or lactic acid are commonly used along with niacinamide to support even skin tone.",
+    "Tan-focused cleansers usually contain glycerin, aloe vera, and ceramides to maintain skin hydration.",
+    "Using a gentle exfoliating face wash regularly can help reduce the appearance of tan over time."
+  ]
+},
+{
+  "tag": "facewash_for_skin_allergy",
+  "patterns": [
+    "face wash for skin allergy",
+    "face wash for sensitive skin",
+    "soap for allergic skin",
+    "which face wash is safe for skin allergy",
+    "gentle cleanser for allergy"
+  ],
+  "responses": [
+    "Face washes for skin allergies should contain mild and soothing ingredients that support the skin barrier.",
+    "Common suitable ingredients include aloe vera, ceramides, glycerin, panthenol, and niacinamide.",
+    "Gentle cleansers usually avoid harsh exfoliating acids and focus on calming and hydrating ingredients.",
+    "If skin irritation continues despite using gentle face washes, consulting a dermatologist is recommended."
+  ]
+},
+    {
+  "tag": "anti_dandruff_shampoo_ingredients",
+  "patterns": [
+    "anti dandruff shampoo",
+    "dandruff shampoo ingredients",
+    "which shampoo is good for dandruff",
+    "what should anti dandruff shampoo contain",
+    "shampoo for flaky scalp",
+    "anti dandruff shampoo suggestion"
+  ],
+  "responses": [
+    "Anti-dandruff shampoos usually contain active ingredients that help control flakes and scalp buildup.",
+    "Common ingredients include salicylic acid to remove flakes, ketoconazole to reduce fungal growth, and zinc-based compounds for scalp balance.",
+    "Some shampoos also include selenium-based ingredients to slow excessive scalp skin cell shedding.",
+    "Choosing a shampoo with suitable active ingredients and using it consistently helps manage dandruff."
+  ]
+},
+
+
+{
   "tag": "fallback",
       "patterns" : [],
   "responses": [

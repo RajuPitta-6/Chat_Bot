@@ -83,7 +83,7 @@ def build_chat_html(messages) -> str:
                 width: 100%;
                 max-width: 600px;
                 background: #ffffff;
-                border-radius: 20px;
+                border-radius: 24px;
                 border: 1px solid #e5e7eb;
                 box-shadow: 0 18px 40px rgba(15, 23, 42, 0.10);
                 padding: 1.1rem 1.35rem;
@@ -129,7 +129,7 @@ def build_chat_html(messages) -> str:
             .message-bubble {{
                 max-width: 85%;
                 padding: 0.75rem 1rem;
-                border-radius: 18px;
+                border-radius: 20px;
                 font-size: 0.95rem;
                 line-height: 1.5;
                 word-wrap: break-word;
@@ -139,13 +139,13 @@ def build_chat_html(messages) -> str:
             .chat-message.user .message-bubble {{
                 background: #111827;
                 color: #f9fafb;
-                border-bottom-right-radius: 6px;
+                border-bottom-right-radius: 10px;
             }}
 
             .chat-message.bot .message-bubble {{
                 background: #f3f4f6;
                 color: #111827;
-                border-bottom-left-radius: 6px;
+                border-bottom-left-radius: 10px;
             }}
 
             /* Custom scrollbar (WebKit) */
